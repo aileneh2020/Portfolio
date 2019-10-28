@@ -1,0 +1,153 @@
+body {
+  padding: 0;
+  margin: 0;
+  /* background: #f2f6e9; */
+  background: #ccc !important;
+}
+
+.section-title {
+  color: #333;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+/*---------- NAVIGATION BAR ----------*/
+
+.navbar {
+  background: rgb(156,86,97);
+  /* background: linear-gradient(360deg, rgba(156,86,97,1) 0%, rgba(183,110,121,1) 40%, rgba(233,205,208,1) 100%); */
+}
+
+.nav-link,
+.navbar-brand {
+  color: #e9cdd0;
+  cursor: pointer;
+}
+
+.nav-link {
+  margin-right: 1em !important;
+}
+
+.nav-link:hover {
+  color: #fff;
+}
+
+.navbar-brand:hover {
+  color: #fff;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+/*---------- HEADER ----------*/
+
+.header {
+  background-image: url('https://images.pexels.com/photos/2293507/pexels-photo-2293507.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.header-description {
+  left: 50%;
+  position: absolute;
+  top: 45%;
+  transform: translate(-50%, -55%);
+  text-align: center;
+}
+.header-description h1 {
+  color: #c1ab8f;
+}
+.header-description p {
+  color: #dcd0c0;
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+
+.overlay {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/*---------- ABOUT ----------*/
+
+.about {
+  margin: 4em auto;
+  padding: 1em;
+  position: relative;
+}
+
+.about img {
+  -webkit-box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  margin-bottom: 16px;
+  border-radius: 2px;
+}
+
+/*---------- PROJECTS ----------*/
+
+.projects {
+  margin: 4em auto;
+  padding: 1em;
+  position: relative;
+  text-align: center;
+}
+
+.project-main-title {
+  color: #333;
+  font-size: 2em;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0 0 40px 0;
+}
+
+.projects img {
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  margin-bottom: 16px;
+  border-radius: 2px;
+}
+
+/*---------- CONTACT FORM ----------*/
+
+.contact-form {
+  align-content: center;
+  width: 50%;
+  margin-bottom: 100px;
+}
+
+.contact-form .btn {
+  background-color: #9c5661;
+  color: #e9cdd0;
+  font-weight: 500;
+  border: 1px solid #9c5661;
+  width: 25% !important;
+}
+
+.contact-form .btn:hover {
+  background-color: #b76e79;
+  color: #fff;
+  border: 1px solid #b76e79;
+}
+
+/*---------- FOOTER ----------*/
+
+.page-footer {
+  background-color: #222;
+  color: #ccc;
+  padding: 60px 0 30px;
+}
+
+.footer-copyright {
+  color: #666;
+  padding: 20px 0;
+}
