@@ -1,12 +1,20 @@
+/* 
+#010400 black
+#bbbbbb gray
+#fffbfc white
+#70abaf turquoise
+#99e1d9 turquoise light 
+*/
+
 body {
   padding: 0;
   margin: 0;
   /* background: #f2f6e9; */
-  background: #ccc !important;
+  background: #bbb !important;
 }
 
 .section-title {
-  color: #333;
+  color: #70abaf;
   font-size: 1.3rem;
   font-weight: 700;
   margin-bottom: 20px;
@@ -16,13 +24,15 @@ body {
 /*---------- NAVIGATION BAR ----------*/
 
 .navbar {
-  background: rgb(156,86,97);
+  background: #010400;
+  /* background: rgb(156,86,97); */
   /* background: linear-gradient(360deg, rgba(156,86,97,1) 0%, rgba(183,110,121,1) 40%, rgba(233,205,208,1) 100%); */
 }
 
 .nav-link,
 .navbar-brand {
-  color: #e9cdd0;
+  /* color: #e9cdd0; */
+  color: #70abaf;
   cursor: pointer;
 }
 
@@ -31,11 +41,11 @@ body {
 }
 
 .nav-link:hover {
-  color: #fff;
+  color: #99e1d9;
 }
 
 .navbar-brand:hover {
-  color: #fff;
+  color: #99e1d9;
 }
 
 .navbar-collapse {
@@ -58,11 +68,10 @@ body {
   transform: translate(-50%, -55%);
   text-align: center;
 }
-.header-description h1 {
-  color: #c1ab8f;
+.header-description {
+  color: #70abaf;
 }
 .header-description p {
-  color: #dcd0c0;
   font-size: 1.3rem;
   line-height: 1.5;
 }
@@ -102,7 +111,7 @@ body {
 }
 
 .project-main-title {
-  color: #333;
+  color: #70abaf;
   font-size: 2em;
   font-weight: 700;
   text-transform: uppercase;
@@ -126,24 +135,23 @@ body {
 }
 
 .contact-form .btn {
-  background-color: #9c5661;
-  color: #e9cdd0;
+  background-color: #70abaf;
+  color: #fffbfc;
   font-weight: 500;
-  border: 1px solid #9c5661;
+  border: 1px solid #70abaf;
   width: 25% !important;
 }
 
 .contact-form .btn:hover {
-  background-color: #b76e79;
-  color: #fff;
-  border: 1px solid #b76e79;
+  background-color: #99e1d9;
+  border: 1px solid #99e1d9;
 }
 
 /*---------- FOOTER ----------*/
 
 .page-footer {
-  background-color: #222;
-  color: #ccc;
+  background-color: #fffbfc;
+  color: #444;
   padding: 60px 0 30px;
 }
 
@@ -154,7 +162,7 @@ body {
 }
 
 .social-icon:hover {
-  fill: #fff;
+  fill: #70abaf;
 }
 
 .footer-copyright {
