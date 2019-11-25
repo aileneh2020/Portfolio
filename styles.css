@@ -1,6 +1,6 @@
-/* 
+/* COLOR SCHEME
 #010400 black
-#bbbbbb gray
+#c0c0c0 silver
 #fffbfc white
 #70abaf turquoise
 #99e1d9 turquoise light 
@@ -10,7 +10,7 @@ body {
   padding: 0;
   margin: 0;
   /* background: #f2f6e9; */
-  background: #bbb !important;
+  background: #c0c0c0 !important;
 }
 
 .section-title {
@@ -70,6 +70,7 @@ body {
 }
 .header-description {
   color: #70abaf;
+  color: #538e92;
 }
 .header-description p {
   font-size: 1.3rem;
