@@ -2,7 +2,7 @@
 #010400 black (main background)
 #c0c0c0 silver (main text)
 #fffbfc white (footer text and link hover)
-#70abaf turquoise
+#70abaf turquoise (links)
 #61eee6 turquoise bright (header, title)
 */
 
@@ -16,7 +16,7 @@ body {
 
 hr {
   background-color: #2e2e2e;
-  width: 50%;
+  width: 75%;
 }
 
 .section-title {
@@ -30,17 +30,23 @@ hr {
 /*---------- NAVIGATION BAR ----------*/
 
 .navbar {
-  background: #2e2e2e;
+  background-color: transparent;
 }
 
-.nav-link,
 .navbar-brand {
   color: #61eee6;
   cursor: pointer;
 }
 
+.navbar.solid {
+  background-color: #2e2e2efa;  /*set at 98% transparency*/
+  transition: background-color 1s ease 0s;
+  box-shadow: 0 0 4px grey;
+}
+
 .nav-link {
   margin-right: 1em !important;
+  color: #70abaf;
 }
 
 .nav-link:hover {
@@ -61,7 +67,8 @@ hr {
   outline: none !important;
 }
 
-span.navbar-toggler-icon {
+span.navbar-toggler-icon,
+span.navbar-toggler-icon:enabled {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(97,238,230, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
@@ -81,7 +88,7 @@ span.navbar-toggler-icon:hover {
 .header-description {
   left: 50%;
   position: absolute;
-  top: 45%;
+  top: 50%;
   transform: translate(-50%, -55%);
   text-align: center;
 }
@@ -188,10 +195,12 @@ span.navbar-toggler-icon:hover {
   height: 40px;
   margin: 30px 10px;
   fill: #fffbfc;
+  fill: #70abaf;
 }
 
 .social-icon:hover {
-  fill: #61eee6;
+  fill: #70abaf;
+  fill: #fffbfc;
 }
 
 .footer-copyright {

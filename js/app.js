@@ -1,13 +1,16 @@
-$(document).ready(function(){
+$(document).ready(function() {
   $('.header').height($(window).height() * 0.8);
 })
 
-function displayMenu() {
-    const x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-      x.className += " responsive";
+$(document).ready(function() {
+  // Transition effect for navbar 
+  $(window).scroll(function() {
+    // checks if window is scrolled more than 400px, adds/removes solid class
+    if($(this).scrollTop() > 400) { 
+        $('.navbar').addClass('solid');
     } else {
-      x.className = "topnav";
+        $('.navbar').removeClass('solid');
     }
-  }
+  })
+})
 
