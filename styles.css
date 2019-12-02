@@ -14,6 +14,11 @@ body {
   color: #c0c0c0 !important;
 }
 
+hr {
+  background-color: #2e2e2e;
+  width: 50%;
+}
+
 .section-title {
   color: #61eee6;
   font-size: 1.2rem;
@@ -139,6 +144,14 @@ span.navbar-toggler-icon:hover {
 
 .project-description {
   margin-bottom: 50px;
+}
+
+.project-description a {
+  color: #70abaf;
+}
+
+.project-description a:hover {
+  color: #fffbfc;
 }
 
 /*---------- CONTACT FORM ----------*/
