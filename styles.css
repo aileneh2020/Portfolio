@@ -10,11 +10,13 @@ body {
   padding: 0;
   margin: 0;
   /* background: #f2f6e9; */
-  background: #c0c0c0 !important;
+  background: #010400 !important;
+  color: #c0c0c0 !important;
 }
 
 .section-title {
   color: #70abaf;
+  color: #61eee6;
   font-size: 1.3rem;
   font-weight: 700;
   margin-bottom: 20px;
@@ -24,15 +26,14 @@ body {
 /*---------- NAVIGATION BAR ----------*/
 
 .navbar {
-  background: #010400;
-  /* background: rgb(156,86,97); */
-  /* background: linear-gradient(360deg, rgba(156,86,97,1) 0%, rgba(183,110,121,1) 40%, rgba(233,205,208,1) 100%); */
+  background: #2e2e2e;
 }
 
 .nav-link,
 .navbar-brand {
   /* color: #e9cdd0; */
   color: #70abaf;
+  color: #61eee6;
   cursor: pointer;
 }
 
@@ -69,8 +70,7 @@ body {
   text-align: center;
 }
 .header-description {
-  color: #70abaf;
-  color: #538e92;
+  color: #61eee6;
 }
 .header-description p {
   font-size: 1.3rem;
@@ -98,21 +98,20 @@ body {
   -webkit-box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
-  margin-bottom: 16px;
-  border-radius: 2px;
+  margin-bottom: 40px;
 }
 
 /*---------- PROJECTS ----------*/
 
 .projects {
-  margin: 4em auto;
+  margin: 2em auto;
   padding: 1em;
   position: relative;
   text-align: center;
 }
 
 .project-main-title {
-  color: #70abaf;
+  color: #61eee6;
   font-size: 2em;
   font-weight: 700;
   text-transform: uppercase;
@@ -125,6 +124,10 @@ body {
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
   margin-bottom: 16px;
   border-radius: 2px;
+}
+
+.project-description {
+  margin-bottom: 50px;
 }
 
 /*---------- CONTACT FORM ----------*/
@@ -151,15 +154,16 @@ body {
 /*---------- FOOTER ----------*/
 
 .page-footer {
-  background-color: #fffbfc;
-  color: #444;
-  padding: 60px 0 30px;
+  background-color: #2e2e2e;
+  color: #fffbfc;
+  padding: 30px 0;
 }
 
 .social-icon {
   width: 50px;
   height: 50px;
-  margin: 50px 10px;
+  margin: 30px 10px;
+  fill: #fffbfc;
 }
 
 .social-icon:hover {
@@ -168,5 +172,5 @@ body {
 
 .footer-copyright {
   color: #666;
-  padding: 20px 0;
+  padding: 30px 0 0;
 }
