@@ -50,7 +50,7 @@ hr {
 }
 
 .nav-link:hover {
-  color: #fffbfc;
+  color: #fffbfc !important;
 }
 
 .navbar-brand:hover {
@@ -195,12 +195,10 @@ span.navbar-toggler-icon:hover {
   height: 40px;
   margin: 30px 10px;
   fill: #fffbfc;
-  fill: #70abaf;
 }
 
 .social-icon:hover {
   fill: #70abaf;
-  fill: #fffbfc;
 }
 
 .footer-copyright {
