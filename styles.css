@@ -79,9 +79,10 @@ span.navbar-toggler-icon:hover {
 /*---------- HEADER ----------*/
 
 .header {
-  background-image: url('https://images.pexels.com/photos/2293507/pexels-photo-2293507.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-image: url('https://images.pexels.com/photos/301614/pexels-photo-301614.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
   background-size: cover;
-  background-position: center;
+  background-position: 50% 140%;
+  background-attachment: fixed;
   position: relative;
 }
 
@@ -91,9 +92,10 @@ span.navbar-toggler-icon:hover {
   top: 50%;
   transform: translate(-50%, -55%);
   text-align: center;
-}
-.header-description {
   color: #61eee6;
+}
+.header-description h1 {
+  font-size: 3.2rem;
 }
 .header-description p {
   font-size: 1.3rem;
@@ -106,7 +108,7 @@ span.navbar-toggler-icon:hover {
   min-width: 100%;
   left: 0;
   top: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.6);
 }
 
 /*---------- ABOUT ----------*/
