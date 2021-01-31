@@ -79,9 +79,10 @@ span.navbar-toggler-icon:hover {
 /*---------- HEADER ----------*/
 
 .header {
-  background-image: url('https://images.pexels.com/photos/301614/pexels-photo-301614.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-image: url('images/pagoda-grayscale.jpg');
+  /* https://images.pexels.com/photos/301614/pexels-photo-301614.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 */
   background-size: cover;
-  background-position: 50% 140%;
+  background-position: center 600px;
   background-attachment: fixed;
   position: relative;
 }
@@ -95,7 +96,7 @@ span.navbar-toggler-icon:hover {
   color: #61eee6;
 }
 .header-description h1 {
-  font-size: 3.2rem;
+  font-size: 3.0rem;
 }
 .header-description p {
   font-size: 1.3rem;
