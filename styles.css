@@ -79,11 +79,12 @@ span.navbar-toggler-icon:hover {
 /*---------- HEADER ----------*/
 
 .header {
-  background-image: url('images/pagoda-grayscale.jpg');
-  /* https://images.pexels.com/photos/301614/pexels-photo-301614.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 */
+  background-image: url('images/laptop-black-white.jpg');
+  /* obtained from https://pixabay.com/photos/desk-laptop-computer-macbook-4334575/ */
   background-size: cover;
-  background-position: center 600px;
+  background-position: center 75%;
   background-attachment: fixed;
+  background-repeat: no-repeat;
   position: relative;
 }
 
@@ -96,7 +97,7 @@ span.navbar-toggler-icon:hover {
   color: #61eee6;
 }
 .header-description h1 {
-  font-size: 3.0rem;
+  font-size: 2.8rem;
 }
 .header-description p {
   font-size: 1.3rem;
