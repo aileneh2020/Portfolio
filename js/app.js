@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $('.header').height($(window).height() * 0.8);
+  $('.header').height($(window).height() * 0.7);
 })
 
 $(document).ready(function() {
